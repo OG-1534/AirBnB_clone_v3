@@ -12,4 +12,4 @@ from api.v1.views.places_reviews import *
 from api.v1.views.users import *
 from api.v1.views.places_amenities import *
 
-app_views = Blueprint('app_views', __name__, url_prefix='/api/vi')
+app_views = Blueprint('/api/vi', __name__, url_prefix="/api/vi")
