@@ -20,10 +20,12 @@ The console is the first segment of the AirBnB project at Holberton School that 
 
 ## Environment
 This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.4.3)
+The project involves building a RESTful API for the AirBnB project.
 
 ## Installation
-* Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone.git"`
-* Access AirBnb directory: `cd AirBnB_clone`
+* Install Flask: 'pip3 install Flask'
+* Fork, Rename and Clone this repository: `git clone "https://github.com/alexaorrico/AirBnB_clone_v2.git"`
+* Access AirBnB_clone_v3 directory: `cd AirBnB_clone_v3`
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 
@@ -129,7 +131,7 @@ TestBaseModel class:
 
 ## Examples of use
 ```
-vagrantAirBnB_clone$./console.py
+vagrantAirBnB_clone_v3$./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -156,6 +158,8 @@ No known bugs at this time.
 ## Authors
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
+Gershom Ochanda - [Github] (https://github.com/OG-1534) / [Twitter] (https://twitter.com/Ya_thepeople)
+James Nzau Muimi - [Github] (https://github.com/nzaumuimi) / [Twitter] (https://twitter.com/nzaumuimi) 
 
 Second part of Airbnb: Joann Vuong
 ## License
