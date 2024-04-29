@@ -21,8 +21,8 @@ def api_status():
 @app_views.route('/stats')
 def get_stats():
     """
-    stats of all objs route
-    :return: json of all objs
+    endpoint that retrieves no. of each objs
+    :return: JSON of all objs
     """
     stats = {
         'amenities': storage.count('Amenity'),
