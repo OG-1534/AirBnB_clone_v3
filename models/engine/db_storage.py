@@ -92,12 +92,11 @@ class DBStorage:
                 return
             return
 
-    def count(self, cls=None):
+     def count(self, cls=None):
         """
-        Count the number of objects in storage
-        :cls param: class (optional) name
-        :return: number of objects in storage,
-        if no class is passed, count of all storage objects
+        counts e no. of instances in a class
+        :param cls: name of class
+        :return: count of instances of a class
         """
         if not cls:
             inst_of_all_cls = self.all()
@@ -105,6 +104,6 @@ class DBStorage:
         for clas, value in classes.items():
             if cls == clas or cls == value:
                 all_inst_of_prov_cls = self.all(cls)
-                return len(all_inst_of_prov_cls)
+                    return len(all_inst_of_prov_cls)
         if cls not in classes.values():
-            return
+            return 
